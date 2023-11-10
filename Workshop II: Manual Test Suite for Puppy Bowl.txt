@@ -1,0 +1,32 @@
+Manual Test Suite for Puppy Bowl
+
+1. Main Page
+
+    Verify that the main page loads correctly and displays the list of players.
+    Ensure each player is listed with their name, breed, and "See details" and "Remove" buttons.
+    Click the "See details" button for a player and verify the details:
+        Check that the player's name, breed, and team are correctly displayed.
+        Ensure a larger version of the player's picture is shown.
+        Confirm the presence of a button to go back to the main list.
+    Click the "Remove" button for a player and confirm the player is removed from the roster.
+
+2. Adding Player(s)
+
+    Locate and fill out the form to add a new player.
+    Enter valid data into the player name and breed inputs.
+    Click the submit button and verify the new player appears in the roster instantly.
+    Test the form with invalid inputs (e.g., empty fields, incorrect data types) and ensure it handles errors gracefully.
+
+3. Removing Player(s)
+
+    Remove an existing player using the "Remove" button.
+    Confirm the player is removed from the roster immediately.
+
+Stretch Goals
+
+    Single Player View:
+        Access the single player view and verify all teammates are listed.
+        Use the dropdown to change the team assignment and confirm the change is reflected without a refresh.
+    Adding Players:
+        Fill out the form with a valid image URL and submit.
+        Confirm the image is displayed as the player's portrait in the roster.

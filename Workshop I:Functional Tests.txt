@@ -1,0 +1,13 @@
+Functional Tests Specifications:
+
+For the shopping cart checkout feature:
+
+    When a user attempts to check out with an empty cart, they should be informed that the cart is empty and given an option to continue shopping.
+    When a user proceeds to check out, they should be presented with a summary of their cart, including items, quantities, and total price.
+    When a user selects checkout as a guest, they should be able to enter their shipping and payment information without logging in.
+    When a user checks out as a guest, they should be prompted to create an account or log in to save their information for future purchases.
+    When a user logs in before checking out, their stored shipping and payment information should be displayed as options to choose from.
+    When a user with items in the cart logs in, the cart should merge with any existing items in their account's cart.
+    If a logged-in user's payment method fails, they should be prompted to enter a new payment method.
+    When a user completes a checkout, they should receive a confirmation with a summary of the order and an estimated delivery date.
+    When a user checks out as a guest and then decides to create an account, their order history should be saved to their new account.

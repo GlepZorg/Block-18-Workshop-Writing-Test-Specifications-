@@ -1,0 +1,24 @@
+For the function called "multiplication":
+
+    Expect multiplication(2, 3) to return a number.
+    Expect multiplication(2, 3) to be equal to 6.
+    Expect multiplication(0, anyNumber) to be equal to 0 (testing with zero).
+    Expect multiplication(anyNumber, 0) to be equal to 0 (testing with zero).
+    Expect multiplication(-2, 3) to be equal to -6 (testing with negative numbers).
+    Expect multiplication(2, -3) to be equal to -6 (testing with negative numbers).
+    Expect multiplication(-2, -3) to be equal to 6 (testing with both negative numbers).
+    Expect multiplication("a", 3) to throw an error (testing with invalid type).
+    Expect multiplication(2, "b") to throw an error (testing with invalid type).
+    Expect multiplication() to throw an error (testing without arguments).
+
+For the function called "concatOdds":
+
+    Expect concatOdds([3, 2, 1], [4, 5]) to return an array.
+    Expect concatOdds([3, 2, 1], [4, 5]) to be equal to [1, 3, 5].
+    Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be equal to [-1, 1, 3, 9, 15].
+    Expect concatOdds([], []) to return an empty array (testing with empty arrays).
+    Expect concatOdds([2, 4], [6, 8]) to return an empty array (testing with no odd numbers).
+    Expect concatOdds(["a"], [1, 3]) to throw an error (testing with invalid type).
+    Expect concatOdds([1, 3], "b") to throw an error (testing with invalid type).
+    Expect concatOdds() to throw an error (testing without arguments).
+    Expect concatOdds([3, 3, 3], [3, 3]) to be equal to [3] (testing with duplicate odd numbers).
